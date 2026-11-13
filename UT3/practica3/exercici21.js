@@ -3,25 +3,25 @@ let num = Number( prompt("Dame un numero del 1 al 7: ") )
 switch(num) {
     case 1: 
       console.log('Lunes')
-    break
+      break
     case 2: 
       console.log('Martes')
-    break
+      break
     case 3: 
       console.log('Miercoles')
-    break
+      break
     case 4:
       console.log('Jueves')
-    break
+      break
     case 5:
       console.log('Viernes')
-    break
+      break
     case 6: 
       console.log('Sabado')
-    break
+      break
     case 7: 
       console.log('Domingo')
-    break
+      break
     default: 
       console.log('No valido')
 }

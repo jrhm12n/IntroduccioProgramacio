@@ -3,13 +3,13 @@ let num1 = Number( prompt('Dame un numero: '))
 let num2 = Number( prompt('Dame otro: '))
 console.log('+, -, *, /')
 let oper = String( prompt('Que operacion quieres hacer: '))
-if (oper == '+') {
+if (oper === '+') {
     console.log(`El resultado de la suma es ${num1 + num2}`)
-} else if (oper == '-') {
+} else if (oper === '-') {
     console.log(`El resultado de la resta es ${num1 - num2}`)
-} else if (oper == '*') {
+} else if (oper === '*') {
     console.log(`El resultado de la multiplicacion es ${num1 * num2}`)
-} else if (oper == '/') {
+} else if (oper === '/') {
     if (num2 != 0){
         console.log(`El resultado de la division es ${num1 / num2}`)
     } else {

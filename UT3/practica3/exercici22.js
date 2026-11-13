@@ -7,11 +7,11 @@ switch(num) {
     case 4:
     case 5:
       console.log('Dia de trabajo')
-    break
+      break
     case 6: 
     case 7: 
       console.log('Fin de semana')
-    break
+      break
     default: 
       console.log('Dia no valido')
 }
